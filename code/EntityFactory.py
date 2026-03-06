@@ -4,11 +4,11 @@ import random
 
 from code.Background import Background
 from code.Const import WIN_WIDTH, WIN_HEIGHT
-from code.Enemy import Enemy
+# from code.Enemy import Enemy
 from code.Player import Player
 
 
-class EntityFactory:
+class EntityFactory:   # nunca se utiliza init
 
     @staticmethod
     def get_entity(entity_name: str):
